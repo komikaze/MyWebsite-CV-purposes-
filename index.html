@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erfanullah Moqori — Portfolio</title>
+    <meta name="theme-color" content="#0b0c10">
+    <meta name="description" content="Erfanullah Moqori — Full‑Stack Engineer & AI/ML Engineer portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-dark">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <!-- Neural network animated background -->
+    <canvas id="neural-canvas" aria-hidden="true"></canvas>
+    <!-- Aurora glass overlay -->
+    <div class="aurora" aria-hidden="true"></div>
+
+    <!-- Custom cursor -->
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand magnetic" href="#top" aria-label="Go to top">
+            <span class="logo">EM</span>
+        </a>
+        <nav class="nav">
+            <a class="nav-link magnetic" href="#projects">Projects</a>
+            <a class="nav-link magnetic" href="#about">About</a>
+            <a class="nav-link magnetic" href="#education">Education</a>
+            <a class="nav-link magnetic" href="#contact">Contact</a>
+            <button id="modeToggle" class="toggle magnetic" aria-label="Toggle dark mode">☾</button>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <section class="hero reveal" id="top">
+            <div class="hero-inner">
+                <h1 class="gradient-text">
+                    Erfanullah Moqori
+                </h1>
+                <p class="subtitle">Full‑Stack Engineer · Machine Learning Engineer</p>
+                <div class="cta-row">
+                    <a class="btn primary magnetic" href="#projects">Explore Projects</a>
+                    <a class="icon-link magnetic" href="https://github.com/komikaze" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                        <svg class="icon icon-gh" width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="stroke" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.51 2.87 8.33 6.85 9.68.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.79.62-3.38-1.37-3.38-1.37-.46-1.2-1.13-1.52-1.13-1.52-.93-.65.07-.64.07-.64 1.03.07 1.57 1.08 1.57 1.08.92 1.62 2.41 1.15 3 .88.09-.68.36-1.15.66-1.41-2.23-.26-4.57-1.14-4.57-5.08 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.74 0 0 .84-.27 2.75 1.05.8-.23 1.66-.35 2.52-.35s1.72.12 2.52.35c1.9-1.32 2.74-1.05 2.74-1.05.55 1.43.2 2.48.1 2.74.64.72 1.03 1.63 1.03 2.75 0 3.95-2.35 4.82-4.59 5.07.37.33.7.97.7 1.95 0 1.41-.01 2.55-.01 2.89 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                    <a class="icon-link magnetic" href="https://www.linkedin.com/in/erfanullah-moqori-6725a329b/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                        <svg class="icon icon-li" width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="stroke" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5ZM3.5 9h3v12h-3V9Zm6 0h2.88v1.64h.04c.4-.76 1.38-1.56 2.84-1.56C18.5 9.08 20 10.7 20 13.56V21h-3v-6.52c0-1.56-.55-2.62-1.94-2.62-1.06 0-1.7.71-1.98 1.4-.1.23-.12.55-.12.87V21h-3V9Z" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section-title gradient-text">Highlighted Projects</h2>
+            <div class="grid">
+                <article class="card tilt reveal">
+                    <h3>Intelligent Fault Detection System</h3>
+                    <p>Adaptive anomaly detection for streaming sensor data with monitoring pipeline.</p>
+                    <a class="btn ghost magnetic" href="https://github.com/komikaze/Intelligent-Fault-Detection-System" target="_blank" rel="noreferrer noopener">Repository</a>
+                </article>
+                <article class="card tilt reveal">
+                    <h3>ML-Derived Insights Dashboard</h3>
+                    <p>Interactive dashboard surfacing model insights and KPIs for decision makers.</p>
+                    <a class="btn ghost magnetic" href="https://github.com/komikaze/Machine-Learning-Derived-Insights-Dashboard" target="_blank" rel="noreferrer noopener">Repository</a>
+                </article>
+                <article class="card tilt reveal">
+                    <h3>Online Model Retraining</h3>
+                    <p>Continuous model retraining pipeline with data validation and drift monitoring.</p>
+                    <a class="btn ghost magnetic" href="https://github.com/komikaze/Online-Model-Retraining" target="_blank" rel="noreferrer noopener">Repository</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <h2 class="section-title gradient-text">About</h2>
+            <p class="reveal">Full‑stack and AI engineer focused on robust data systems, monitoring, and delightful user experiences. I love problem solving and building production‑ready ML systems.</p>
+        </section>
+
+        <section class="section education" id="education">
+            <h2 class="section-title gradient-text">Education & Certifications</h2>
+            <ul class="timeline">
+                <li class="reveal"><strong>Collège Jean‑de‑Brébeuf</strong> — Highschool Diploma (Class of 2024)</li>
+                <li class="reveal"><strong>Collège Jean‑de‑Brébeuf</strong> — Pre‑University Diploma, Economics & Business Management (Class of 2026, GPA 3.8)</li>
+                <li class="reveal"><strong>Codecademy</strong> — Full‑Stack Engineer (July 2025)</li>
+                <li class="reveal"><strong>Codecademy</strong> — Machine Learning/AI Engineer (August 2025)</li>
+                <li class="reveal"><strong>Data Scientist</strong> — Machine Learning Specialist (October 2025)</li>
+            </ul>
+        </section>
+
+        <section class="section contact" id="contact">
+            <h2 class="section-title gradient-text">Get in touch</h2>
+            <p class="reveal">Open to opportunities and collaborations. Drop a message below.</p>
+            <form id="contact-form" class="contact-form reveal" action="https://formspree.io/f/xvgwyjlr" method="POST">
+                <div class="field">
+                    <label for="user-email">Your Email</label>
+                    <input id="user-email" name="email" type="email" placeholder="you@domain.com" required autocomplete="email"/>
+                </div>
+                <div class="field">
+                    <label for="user-message">Message</label>
+                    <textarea id="user-message" name="message" rows="5" placeholder="Say hi…" required></textarea>
+                </div>
+                <button class="btn primary magnetic" type="submit">Send</button>
+                <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+            <div class="cta-row" style="margin-top:18px">
+                <a class="btn outline magnetic" href="https://www.linkedin.com/in/erfanullah-moqori-6725a329b/" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
